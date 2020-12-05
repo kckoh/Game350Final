@@ -91,10 +91,20 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
-        gameOver.SetActive(true);
-        menu.SetActive(true);
-        explosion.SetActive(true);
+        if(other.name == "GoldCoin")
+        {
+            Debug.Log("detecting : " + other.name);
+            
+        }
+
+        else
+        {
+            Destroy(gameObject);
+            gameOver.SetActive(true);
+            menu.SetActive(true);
+            explosion.SetActive(true);
+        }
+      
 
     }
 
