@@ -22,13 +22,21 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject menu;
     [SerializeField] ParticleSystem beam;
 
+
+
     bool isShooting = false;
     ParticleSystem.MainModule  main;
+
+    //Shield
+    ShieldEffect shieldEffect;
+    [SerializeField] GameObject shield;
+    public bool isShield = false;
 
     //to set the bullet
     private void Start()
     {
         main = beam.main;
+        
     }
     
 
@@ -97,12 +105,28 @@ public class PlayerController : MonoBehaviour
             
         }
 
+        else if(other.name == "ShieldPickup")
+        {
+            Debug.Log("detecting : " + other.name);
+            shield.SetActive(true);
+            StartCoroutine(ShieldDisappearCoroutine());
+           
+
+        }
+
         else
         {
-            Destroy(gameObject);
-            gameOver.SetActive(true);
-            menu.SetActive(true);
-            explosion.SetActive(true);
+            if (isShield){
+
+            }
+            else
+            {
+                Destroy(gameObject);
+                gameOver.SetActive(true);
+                menu.SetActive(true);
+                explosion.SetActive(true);
+            }
+            
         }
       
 
@@ -122,6 +146,19 @@ public class PlayerController : MonoBehaviour
         {
             main.loop = false;
         }
+    }
+
+    IEnumerator ShieldDisappearCoroutine()
+    {
+
+        isShield = true;
+        //yield on a new YieldInstruction that waits for 5 seconds.
+        yield return new WaitForSeconds(10);
+        shield.SetActive(false);
+        isShield = false;
+
+        //After we have waited 5 seconds print the time again.
+
     }
 
 }

@@ -8,12 +8,12 @@ public class EnemyScript : MonoBehaviour
     [SerializeField] GameObject explosion;
     [SerializeField] ParticleSystem beam;
     [SerializeField] GameObject coin;
+    [SerializeField] GameObject shield;
     ParticleSystem.MainModule main;
     Score score;
     float sinAngle = 0;
     public float speed = 60f;
     public bool isShooting;
-    public bool isCoin;
     public bool isShield;
     
 
@@ -39,20 +39,17 @@ public class EnemyScript : MonoBehaviour
 
         explosion.SetActive(true);
         Destroy(gameObject);
-        if (isCoin)
+       
+        Instantiate(coin, transform.position, Quaternion.Euler(new Vector3(0, 50, 90)));
+      
+        if(isShield)
         {
-            Instantiate(coin, transform.position, Quaternion.identity);
+            Instantiate(shield, transform.position, Quaternion.Euler(new Vector3(0, 65, 90)));
         }
-        else if(isShield)
-        {
-
-        }
-        
     }
 
     public void shootPlayer()
     {
             beam.Play();
-        
     }
 }
