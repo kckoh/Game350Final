@@ -6,8 +6,10 @@ using UnityEngine;
 public class CoinCount : MonoBehaviour
 {
 
+
     [SerializeField] TextMeshProUGUI coinTextMeshPro;
     int coin;
+
 
     public CoinCount()
     {
@@ -18,7 +20,6 @@ public class CoinCount : MonoBehaviour
     {
         coinTextMeshPro.SetText("Coin: " + coin.ToString());
     }
-
     public void addCoin()
     {
         coin++;

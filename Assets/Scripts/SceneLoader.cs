@@ -1,16 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
+
+    [SerializeField] PlayableDirector timeline;
+
     //function to load the game scene
     public void SceneLoadGameScene()
     {
-
-        
         SceneManager.LoadScene("gameScene");
-
     }
 
     public void SceneLoadMenu()
@@ -29,4 +30,5 @@ public class SceneLoader : MonoBehaviour
         Application.Quit();
     }
 
+    
 }

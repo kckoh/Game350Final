@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 using UnityStandardAssets.CrossPlatformInput;
 public class PlayerController : MonoBehaviour
 {
@@ -21,34 +22,42 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject gameOver;
     [SerializeField] GameObject menu;
     [SerializeField] ParticleSystem beam;
+    [SerializeField] PlayableDirector timeline;
+    [SerializeField] GameObject shop;
+    [SerializeField] GameObject replay;
 
-
-
-    bool isShooting = false;
+    bool isShooting = true;
+    static public bool death = false;
     ParticleSystem.MainModule  main;
+
 
     //Shield
     ShieldEffect shieldEffect;
     [SerializeField] GameObject shield;
     public bool isShield = false;
 
-    //to set the bullet
+ 
+
+    //Shop and replay
+   
+
     private void Start()
     {
         main = beam.main;
-        
     }
     
-
-
     // Update is called once per frame
     void Update()
     {
-        translationControl();
-        rotationControl();
-        shootControl();
+        //stop moving when dead
+        if (!death)
+        {
+            translationControl();
+            rotationControl();
+            shootControl();
+        }
+        //stop();
     }
-
 
    //control the translation movement
     public void translationControl()
@@ -110,27 +119,24 @@ public class PlayerController : MonoBehaviour
             Debug.Log("detecting : " + other.name);
             shield.SetActive(true);
             StartCoroutine(ShieldDisappearCoroutine());
-           
-
         }
 
         else
         {
-            if (isShield){
-
-            }
+            if (isShield){}
             else
             {
-                Destroy(gameObject);
+                //Destroy(gameObject);
+                death = true;
                 gameOver.SetActive(true);
                 menu.SetActive(true);
+                shop.SetActive(true);
+                replay.SetActive(true);
                 explosion.SetActive(true);
             }
-            
         }
-      
-
     }
+
 
     //shooting management
     private void shootControl()
@@ -146,6 +152,7 @@ public class PlayerController : MonoBehaviour
         {
             main.loop = false;
         }
+
     }
 
     IEnumerator ShieldDisappearCoroutine()
@@ -160,5 +167,30 @@ public class PlayerController : MonoBehaviour
         //After we have waited 5 seconds print the time again.
 
     }
+
+  /*  public void stop()
+    {
+        if (Input.GetKey("escape"))
+        {
+            if (isStop)
+            {
+                menu.SetActive(true);
+                shop.SetActive(true);
+                timeline.Pause();
+                isStop = false;
+            }
+            else
+            {
+                menu.SetActive(false);
+                shop.SetActive(false);
+                timeline.Play();
+                isStop = true;
+            }
+            
+            
+        }
+
+    }
+*/
 
 }

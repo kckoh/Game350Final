@@ -12,16 +12,20 @@ public class Score : MonoBehaviour
     public Score()
     {
         score = 0;
+
     }
     // Start is called before the first frame update
     void Start()
     {
         scoreTextMeshPro.SetText("Score: " + score.ToString());
+
     }
 
    public void addScore()
     {
+
         score++;
         scoreTextMeshPro.SetText("Score: " + score.ToString());
+
     }
 }
