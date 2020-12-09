@@ -38,7 +38,7 @@ public class EnemyScript : MonoBehaviour
         
 
         explosion.SetActive(true);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
        
         Instantiate(coin, transform.position, Quaternion.Euler(new Vector3(0, 50, 90)));
       

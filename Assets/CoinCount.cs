@@ -18,7 +18,6 @@ public class CoinCount : MonoBehaviour
     {
         coinTextMeshPro.SetText("Coin: " + coin.ToString());
     }
-
     public void addCoin()
     {
         coin++;
