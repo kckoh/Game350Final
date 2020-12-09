@@ -30,17 +30,13 @@ public class PlayerController : MonoBehaviour
     static public bool death = false;
     ParticleSystem.MainModule  main;
 
-
     //Shield
     ShieldEffect shieldEffect;
     [SerializeField] GameObject shield;
     public bool isShield = false;
 
- 
-
     //Shop and replay
    
-
     private void Start()
     {
         main = beam.main;
@@ -54,8 +50,10 @@ public class PlayerController : MonoBehaviour
         {
             translationControl();
             rotationControl();
-            shootControl();
+            
         }
+
+        shootControl();
         //stop();
     }
 
@@ -108,10 +106,9 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.name == "GoldCoin")
+        if(other.name == "GoldCoin(Clone)")
         {
             Debug.Log("detecting : " + other.name);
-            
         }
 
         else if(other.name == "ShieldPickup")
@@ -120,13 +117,11 @@ public class PlayerController : MonoBehaviour
             shield.SetActive(true);
             StartCoroutine(ShieldDisappearCoroutine());
         }
-
         else
         {
             if (isShield){}
             else
-            {
-                //Destroy(gameObject);
+            { 
                 death = true;
                 gameOver.SetActive(true);
                 menu.SetActive(true);

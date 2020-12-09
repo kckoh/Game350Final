@@ -215,6 +215,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: 784.02
@@ -837,6 +841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: 100.78
@@ -988,6 +996,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.6126943
@@ -1134,7 +1146,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14258
+  m_Name: pb_Mesh51500
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1309,7 +1321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &144563431
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1432,6 +1444,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.99
@@ -1516,7 +1532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosion: {fileID: 783794999}
   beam: {fileID: 0}
-  coin: {fileID: 0}
+  coin: {fileID: 2099852150}
   shield: {fileID: 0}
   speed: 10
   isShooting: 0
@@ -1564,7 +1580,7 @@ Transform:
   - {fileID: 1023133184}
   - {fileID: 1831856367}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &201348048 stripped
 GameObject:
@@ -1809,6 +1825,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.85936
@@ -1960,6 +1980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1570034556958308, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4944201315585692, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 458.97
@@ -2060,6 +2084,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2213,11 +2241,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 534142006407863803, guid: a8838143e2a43164293af5969da39fa8,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 535183736287257624, guid: a8838143e2a43164293af5969da39fa8,
         type: 3}
       propertyPath: explosion
       value: 
       objectReference: {fileID: 783794999}
+    - target: {fileID: 535183736287257624, guid: a8838143e2a43164293af5969da39fa8,
+        type: 3}
+      propertyPath: coin
+      value: 
+      objectReference: {fileID: 2099852150}
     - target: {fileID: 539660703637543457, guid: a8838143e2a43164293af5969da39fa8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2302,11 +2340,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 534142006407863803, guid: a8838143e2a43164293af5969da39fa8,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 535183736287257624, guid: a8838143e2a43164293af5969da39fa8,
         type: 3}
       propertyPath: explosion
       value: 
       objectReference: {fileID: 783794999}
+    - target: {fileID: 535183736287257624, guid: a8838143e2a43164293af5969da39fa8,
+        type: 3}
+      propertyPath: coin
+      value: 
+      objectReference: {fileID: 2099852150}
     - target: {fileID: 539660703637543457, guid: a8838143e2a43164293af5969da39fa8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2395,6 +2443,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2547,6 +2599,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.989014
@@ -2698,6 +2754,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow2
       objectReference: {fileID: 0}
+    - target: {fileID: 1570034556958308, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4944201315585692, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 458.52
@@ -2754,6 +2814,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2983,6 +3047,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3226,6 +3294,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: -36.57
@@ -3436,7 +3508,7 @@ Transform:
   - {fileID: 1399068065}
   - {fileID: 1130782640}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &567866086 stripped
 Transform:
@@ -3444,49 +3516,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1110244054}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &571031012
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 571031014}
-  - component: {fileID: 571031013}
-  m_Layer: 0
-  m_Name: PlayerStats
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &571031013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571031012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72fc760ee9433a14a897eeb3c90a0478, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &571031014
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571031012}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.4193273, y: -96.93619, z: 363.95947}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &577161446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3497,6 +3526,10 @@ PrefabInstance:
     - target: {fileID: 1570034556958308, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
       propertyPath: m_Name
       value: StarSparrow2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1570034556958308, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4944201315585692, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3638,7 +3671,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &623698803
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3702,7 +3735,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141990938}
+      - m_Target: {fileID: 1566498269}
         m_MethodName: ReplayGame
         m_Mode: 1
         m_Arguments:
@@ -3760,6 +3793,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4004,6 +4041,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4823,11 +4864,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 534142006407863803, guid: a8838143e2a43164293af5969da39fa8,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 535183736287257624, guid: a8838143e2a43164293af5969da39fa8,
         type: 3}
       propertyPath: explosion
       value: 
       objectReference: {fileID: 783794999}
+    - target: {fileID: 535183736287257624, guid: a8838143e2a43164293af5969da39fa8,
+        type: 3}
+      propertyPath: coin
+      value: 
+      objectReference: {fileID: 2099852150}
     - target: {fileID: 539660703637543457, guid: a8838143e2a43164293af5969da39fa8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4910,6 +4961,10 @@ PrefabInstance:
     - target: {fileID: 1570034556958308, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
       propertyPath: m_Name
       value: StarSparrow2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1570034556958308, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4944201315585692, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5050,6 +5105,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e076683e0305e35498b8e8834978c0fa, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: e076683e0305e35498b8e8834978c0fa, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -5065,6 +5124,14 @@ PrefabInstance:
     - target: {fileID: 100006, guid: e076683e0305e35498b8e8834978c0fa, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: e076683e0305e35498b8e8834978c0fa, type: 3}
+      propertyPath: m_TagString
+      value: clone
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: e076683e0305e35498b8e8834978c0fa, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: e076683e0305e35498b8e8834978c0fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5139,6 +5206,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5233,7 +5304,7 @@ Transform:
   - {fileID: 20285465}
   - {fileID: 1277074492}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &754975654
 Animator:
@@ -5283,6 +5354,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5441,6 +5516,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.35
@@ -5594,12 +5673,12 @@ GameObject:
   - component: {fileID: 804433425}
   - component: {fileID: 804433424}
   m_Layer: 5
-  m_Name: Pause
+  m_Name: Shop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &804433423
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5663,8 +5742,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1141990938}
-        m_MethodName: SceneLoadMenu
+      - m_Target: {fileID: 1566498269}
+        m_MethodName: Shop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5721,6 +5800,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5786,6 +5869,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5938,6 +6025,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1570034556958308, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4944201315585692, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.7773094
@@ -5994,6 +6085,10 @@ PrefabInstance:
     - target: {fileID: 1570034556958308, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
       propertyPath: m_Name
       value: StarSparrow2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1570034556958308, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4944201315585692, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6317,6 +6412,21 @@ PrefabInstance:
       propertyPath: isShield
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8785871469106767187, guid: 8bcefaa4cf61528448632032396e1c8c,
+        type: 3}
+      propertyPath: timeline
+      value: 
+      objectReference: {fileID: 1834119090}
+    - target: {fileID: 8785871469106767187, guid: 8bcefaa4cf61528448632032396e1c8c,
+        type: 3}
+      propertyPath: shop
+      value: 
+      objectReference: {fileID: 804433422}
+    - target: {fileID: 8785871469106767187, guid: 8bcefaa4cf61528448632032396e1c8c,
+        type: 3}
+      propertyPath: replay
+      value: 
+      objectReference: {fileID: 623698802}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bcefaa4cf61528448632032396e1c8c, type: 3}
 --- !u!4 &891361713 stripped
@@ -6335,6 +6445,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6487,6 +6601,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow2
       objectReference: {fileID: 0}
+    - target: {fileID: 1570034556958308, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4944201315585692, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.28731
@@ -6543,6 +6661,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6809,7 +6931,7 @@ GameObject:
   - component: {fileID: 972232086}
   m_Layer: 0
   m_Name: Enemies
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6842,6 +6964,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6994,6 +7120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: 772
@@ -7144,6 +7274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.56
@@ -7214,6 +7348,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 534142006407863803, guid: a8838143e2a43164293af5969da39fa8,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 535183736287257624, guid: a8838143e2a43164293af5969da39fa8,
         type: 3}
       propertyPath: explosion
@@ -7224,6 +7363,11 @@ PrefabInstance:
       propertyPath: isShooting
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 535183736287257624, guid: a8838143e2a43164293af5969da39fa8,
+        type: 3}
+      propertyPath: coin
+      value: 
+      objectReference: {fileID: 2099852150}
     - target: {fileID: 539660703637543457, guid: a8838143e2a43164293af5969da39fa8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7306,6 +7450,10 @@ PrefabInstance:
     - target: {fileID: 1570034556958308, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
       propertyPath: m_Name
       value: StarSparrow2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1570034556958308, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4944201315585692, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7894,6 +8042,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.8
@@ -8089,6 +8241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.02
@@ -8173,7 +8329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosion: {fileID: 783794999}
   beam: {fileID: 0}
-  coin: {fileID: 0}
+  coin: {fileID: 2099852150}
   shield: {fileID: 0}
   speed: 10
   isShooting: 0
@@ -8343,7 +8499,7 @@ Transform:
   - {fileID: 112751402}
   - {fileID: 959850796}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1211250605 stripped
 GameObject:
@@ -8361,6 +8517,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8430,6 +8590,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8894,6 +9058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: 616.5833
@@ -8963,6 +9131,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 534142006407863803, guid: a8838143e2a43164293af5969da39fa8,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 535183735031889634, guid: a8838143e2a43164293af5969da39fa8,
         type: 3}
@@ -9056,6 +9229,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9207,6 +9384,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9572,6 +9753,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10195,7 +10380,7 @@ GameObject:
   - component: {fileID: 1451436666}
   - component: {fileID: 1451436665}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Shop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10239,7 +10424,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pause
+  m_text: 'Shop
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 31f8c9a0f33f60440a815c7828f40059, type: 2}
   m_sharedMaterial: {fileID: -8493752674129513338, guid: 31f8c9a0f33f60440a815c7828f40059,
@@ -10327,6 +10514,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10556,7 +10747,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14404
+  m_Name: pb_Mesh52698
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10724,6 +10915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.07
@@ -10890,7 +11085,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosion: {fileID: 783794999}
   beam: {fileID: 0}
-  coin: {fileID: 0}
+  coin: {fileID: 2099852150}
   shield: {fileID: 0}
   speed: 10
   isShooting: 0
@@ -10914,7 +11109,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14028
+  m_Name: pb_Mesh49700
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11082,6 +11277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.37140757
@@ -11146,7 +11345,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14170
+  m_Name: pb_Mesh50870
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11303,6 +11502,54 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1566498268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1566498270}
+  - component: {fileID: 1566498269}
+  m_Layer: 0
+  m_Name: MenuController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1566498269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566498268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ae707b23c892664f83a5c0455c473f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeline: {fileID: 1834119090}
+  gameOver: {fileID: 1904303171}
+  menu: {fileID: 144563430}
+  shop: {fileID: 804433422}
+  replay: {fileID: 623698802}
+--- !u!4 &1566498270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566498268}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 345.66614, y: 129.02168, z: -2.4003341}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1577749883
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11313,6 +11560,10 @@ PrefabInstance:
     - target: {fileID: 1570034556958308, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
       propertyPath: m_Name
       value: StarSparrow2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1570034556958308, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4944201315585692, guid: dae7a3955bbf76e409d09988296acacb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11370,6 +11621,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11649,7 +11904,7 @@ Transform:
   - {fileID: 424577900}
   - {fileID: 1606585711}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1679195419
 PrefabInstance:
@@ -11661,6 +11916,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12034,6 +12293,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 534142006407863803, guid: a8838143e2a43164293af5969da39fa8,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 535183736287257624, guid: a8838143e2a43164293af5969da39fa8,
         type: 3}
       propertyPath: explosion
@@ -12044,6 +12308,11 @@ PrefabInstance:
       propertyPath: isShooting
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 535183736287257624, guid: a8838143e2a43164293af5969da39fa8,
+        type: 3}
+      propertyPath: coin
+      value: 
+      objectReference: {fileID: 2099852150}
     - target: {fileID: 539660703637543457, guid: a8838143e2a43164293af5969da39fa8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12192,7 +12461,7 @@ Transform:
   - {fileID: 1160514700}
   - {fileID: 1377902513}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 15.639001, y: -78.993004, z: -6.2760005}
 --- !u!1001 &1747994913
 PrefabInstance:
@@ -12206,6 +12475,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 534142006407863803, guid: a8838143e2a43164293af5969da39fa8,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 535183736287257624, guid: a8838143e2a43164293af5969da39fa8,
         type: 3}
       propertyPath: explosion
@@ -12216,6 +12490,11 @@ PrefabInstance:
       propertyPath: isShooting
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 535183736287257624, guid: a8838143e2a43164293af5969da39fa8,
+        type: 3}
+      propertyPath: coin
+      value: 
+      objectReference: {fileID: 2099852150}
     - target: {fileID: 539660703637543457, guid: a8838143e2a43164293af5969da39fa8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12364,7 +12643,7 @@ Transform:
   - {fileID: 700585069}
   - {fileID: 62859414}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1769787662
 GameObject:
@@ -17175,6 +17454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: 522.11
@@ -17326,6 +17609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: 80.38
@@ -17476,6 +17763,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17927,7 +18218,7 @@ Transform:
   m_LocalScale: {x: 0.1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 68.75201, z: 0}
 --- !u!65 &1821898519
 BoxCollider:
@@ -18231,6 +18522,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.450165
@@ -18422,6 +18717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarSparrow3 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
       value: 147.76
@@ -18575,7 +18874,7 @@ GameObject:
   - component: {fileID: 2008301283}
   m_Layer: 0
   m_Name: Move7-1
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18632,7 +18931,7 @@ Transform:
   - {fileID: 362284726}
   - {fileID: 204988411}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 354.4498, y: 355.6346, z: 343.9284}
 --- !u!1 &2009108914 stripped
 GameObject:
@@ -18688,6 +18987,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18821,7 +19124,7 @@ Transform:
   - {fileID: 672263742}
   - {fileID: 2129364199}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &2070932730
 Mesh:
@@ -18829,7 +19132,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14316
+  m_Name: pb_Mesh52010
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -19133,7 +19436,7 @@ GameObject:
   - component: {fileID: 2077180683}
   m_Layer: 0
   m_Name: Move0-1
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19207,7 +19510,7 @@ GameObject:
   - component: {fileID: 2099852151}
   m_Layer: 0
   m_Name: GoldCoin
-  m_TagString: Untagged
+  m_TagString: clone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19308,6 +19611,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19459,6 +19766,10 @@ PrefabInstance:
     - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404724577958374, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4530302269161020, guid: e261f7b66a8f0fd4492d87df1eee4222, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19820,6 +20131,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StarSparrow3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 534142006407863803, guid: a8838143e2a43164293af5969da39fa8,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 535183736287257624, guid: a8838143e2a43164293af5969da39fa8,
         type: 3}

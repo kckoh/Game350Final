@@ -18,7 +18,6 @@ public class Coin : MonoBehaviour
         if (other.name == "Player")
         {
             Destroy(gameObject);
-
         }
     }
 }

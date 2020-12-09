@@ -6,10 +6,8 @@ using UnityEngine;
 public class CoinCount : MonoBehaviour
 {
 
-
     [SerializeField] TextMeshProUGUI coinTextMeshPro;
     int coin;
-
 
     public CoinCount()
     {

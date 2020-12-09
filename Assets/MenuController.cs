@@ -10,10 +10,14 @@ public class MenuController : MonoBehaviour
     [SerializeField] GameObject menu;
     [SerializeField] GameObject shop;
     [SerializeField] GameObject replay;
-    
+
+    GameObject[] enemies;
     bool isStop = false;
 
-   
+    private void Start()
+    {
+         enemies = GameObject.FindGameObjectsWithTag("enemy");
+    }
     void Update()
     {
         stop();
@@ -22,11 +26,30 @@ public class MenuController : MonoBehaviour
     public void ReplayGame()
     {
         PlayerController.death = false;
-
+        //menu ui to set false
         gameOver.SetActive(false);
         menu.SetActive(false);
         shop.SetActive(false);
         replay.SetActive(false);
+
+        //destroy all clones
+        var clones = GameObject.FindGameObjectsWithTag("clone");
+        
+        foreach (var clone in clones)
+            {
+            if (clone.name == "GoldCoin" || clone.name == "ExplosonEnemy") { }
+            else
+                {
+                    Destroy(clone);
+                }
+                
+            }
+        
+        foreach (var enemy in enemies)
+        {
+            enemy.SetActive(true);
+        }
+        //timeline play and pause
         timeline.Stop();
         timeline.Play();
     }
@@ -38,7 +61,7 @@ public class MenuController : MonoBehaviour
 
     public void stop()
     {
-        if (Input.GetKey("escape"))
+        if (Input.GetKeyDown("escape"))
         {
             if (isStop)
             {
@@ -52,6 +75,7 @@ public class MenuController : MonoBehaviour
             {
                 menu.SetActive(false);
                 shop.SetActive(false);
+                replay.SetActive(false);
                 timeline.Play();
                 isStop = true;
             }
