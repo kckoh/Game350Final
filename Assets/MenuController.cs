@@ -15,6 +15,7 @@ public class MenuController : MonoBehaviour
     GameObject[] enemies;
     Score score;
     CoinCount coin;
+    PlayerController playerController;
     bool isStop = false;
 
     private void Start()
@@ -22,6 +23,7 @@ public class MenuController : MonoBehaviour
          enemies = GameObject.FindGameObjectsWithTag("enemy");
          score = FindObjectOfType<Score>();
          coin = FindObjectOfType<CoinCount>();
+        playerController = FindObjectOfType<PlayerController>();
     }
     void Update()
     {
@@ -113,6 +115,11 @@ public class MenuController : MonoBehaviour
     public void buyBeam()
     {
         bool buyBeam = coin.subtractCoin(5);
+        if (buyBeam)
+        {
+            playerController.shootingUpgrade = true;
+        }
+        
 
     }
 

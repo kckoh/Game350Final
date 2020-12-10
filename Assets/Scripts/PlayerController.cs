@@ -29,19 +29,22 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject shield;
 
     
-    ParticleSystem.MainModule  main;
+    ParticleSystem.MainModule  mainBeam;
+    ParticleSystem.MainModule mainUpgradeBeam;
     ShieldEffect shieldEffect;
 
     //bool
     public bool isShield = false;
     bool isShooting = true;
     static public bool death = false;
+    public bool shootingUpgrade = false;
 
     //Shop and replay
 
     private void Start()
     {
-        main = beam.main;
+        mainBeam = beam.main;
+        mainUpgradeBeam = beamUpgrade.main;
     }
     
     // Update is called once per frame
@@ -141,14 +144,30 @@ public class PlayerController : MonoBehaviour
         //if space entered, player shoots
         if (Input.GetKeyDown("space"))
         {
-            //beam.Play();
-            beamUpgrade.Play();
-            main.loop = true;
+            if (shootingUpgrade)
+            {
+                beamUpgrade.Play();
+                mainUpgradeBeam.loop = true;
+            }
+            else
+            {
+                beam.Play();
+                mainBeam.loop = true;
+            }
+            
         }
 
         if (Input.GetKeyUp("space"))
         {
-            main.loop = false;
+            if (shootingUpgrade)
+            {
+                mainUpgradeBeam.loop = false;
+            }
+            else
+            {
+                mainBeam.loop = false;
+            }
+            
         }
 
     }
