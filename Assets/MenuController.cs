@@ -8,15 +8,20 @@ public class MenuController : MonoBehaviour
     [SerializeField] PlayableDirector timeline;
     [SerializeField] GameObject gameOver;
     [SerializeField] GameObject menu;
+    [SerializeField] GameObject shopButton;
     [SerializeField] GameObject shop;
     [SerializeField] GameObject replay;
 
     GameObject[] enemies;
+    Score score;
+    CoinCount coin;
     bool isStop = false;
 
     private void Start()
     {
          enemies = GameObject.FindGameObjectsWithTag("enemy");
+         score = FindObjectOfType<Score>();
+         coin = FindObjectOfType<CoinCount>();
     }
     void Update()
     {
@@ -29,7 +34,7 @@ public class MenuController : MonoBehaviour
         //menu ui to set false
         gameOver.SetActive(false);
         menu.SetActive(false);
-        shop.SetActive(false);
+        shopButton.SetActive(false);
         replay.SetActive(false);
 
         //destroy all clones
@@ -54,9 +59,13 @@ public class MenuController : MonoBehaviour
         timeline.Play();
     }
 
-    public void Shop()
+    public void ShopButton()
     {
-
+        menu.SetActive(false);
+        shop.SetActive(false);
+        replay.SetActive(false);
+        shopButton.SetActive(false);
+        shop.SetActive(true);
     }
 
     public void stop()
@@ -67,14 +76,14 @@ public class MenuController : MonoBehaviour
             {
                 replay.SetActive(true);
                 menu.SetActive(true);
-                shop.SetActive(true);
+                shopButton.SetActive(true);
                 timeline.Pause();
                 isStop = false;
             }
             else
             {
                 menu.SetActive(false);
-                shop.SetActive(false);
+                shopButton.SetActive(false);
                 replay.SetActive(false);
                 timeline.Play();
                 isStop = true;
@@ -82,5 +91,30 @@ public class MenuController : MonoBehaviour
         }
 
     }
+
+    public void exitShop()
+    {
+        menu.SetActive(true);
+        shop.SetActive(true);
+        replay.SetActive(true);
+        shopButton.SetActive(true);
+        shop.SetActive(false);
+    }
+
+    public void TransferScore()
+    {
+        bool isTransfered = score.subtractScore(5);
+        if (isTransfered)
+        {
+            coin.addCoin();
+        }
+    }
+
+    public void buyBeam()
+    {
+        bool buyBeam = coin.subtractCoin(5);
+    }
+
+
 
 }

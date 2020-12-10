@@ -11,7 +11,6 @@ public class Coin : MonoBehaviour
         coinCount = FindObjectOfType<CoinCount>();
     }
 
-   
     private void OnTriggerEnter(Collider other)
     {
         coinCount.addCoin();

@@ -7,7 +7,8 @@ public class CoinCount : MonoBehaviour
 {
 
     [SerializeField] TextMeshProUGUI coinTextMeshPro;
-    int coin;
+    [SerializeField] TextMeshProUGUI coinShopTextMeshPro;
+    public int coin { get; set; }
 
     public CoinCount()
     {
@@ -22,5 +23,21 @@ public class CoinCount : MonoBehaviour
     {
         coin++;
         coinTextMeshPro.SetText("Coin: " + coin.ToString());
+        coinShopTextMeshPro.SetText("Coin: " + coin.ToString());
+    }
+
+    public bool subtractCoin(int i)
+    {
+        if (i > coin)
+        {
+            return false;
+        }
+        else
+        {
+            coin -= i;
+            coinTextMeshPro.SetText("Coin: " + coin.ToString());
+            coinShopTextMeshPro.SetText("Coin: " + coin.ToString());
+            return true;
+        }
     }
 }

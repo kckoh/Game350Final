@@ -33,10 +33,10 @@ public class EnemyScript : MonoBehaviour
 
     private void OnParticleCollision(GameObject other)
     {
+        
         score.addScore();
         Instantiate(explosion, transform.position, Quaternion.identity);
         
-
         explosion.SetActive(true);
         gameObject.SetActive(false);
        
