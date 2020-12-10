@@ -113,6 +113,7 @@ public class MenuController : MonoBehaviour
     public void buyBeam()
     {
         bool buyBeam = coin.subtractCoin(5);
+
     }
 
 

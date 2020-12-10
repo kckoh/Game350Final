@@ -6,7 +6,7 @@ using UnityStandardAssets.CrossPlatformInput;
 public class PlayerController : MonoBehaviour
 {
 
-    //var
+    //movement variables
     [SerializeField] float speedX = 1f;
     [SerializeField] float xLimit = 0.5f;
     [SerializeField] float speedY = 1f;
@@ -22,21 +22,23 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject gameOver;
     [SerializeField] GameObject menu;
     [SerializeField] ParticleSystem beam;
+    [SerializeField] ParticleSystem beamUpgrade;
     [SerializeField] PlayableDirector timeline;
     [SerializeField] GameObject shop;
     [SerializeField] GameObject replay;
+    [SerializeField] GameObject shield;
 
+    
+    ParticleSystem.MainModule  main;
+    ShieldEffect shieldEffect;
+
+    //bool
+    public bool isShield = false;
     bool isShooting = true;
     static public bool death = false;
-    ParticleSystem.MainModule  main;
-
-    //Shield
-    ShieldEffect shieldEffect;
-    [SerializeField] GameObject shield;
-    public bool isShield = false;
 
     //Shop and replay
-   
+
     private void Start()
     {
         main = beam.main;
@@ -139,7 +141,8 @@ public class PlayerController : MonoBehaviour
         //if space entered, player shoots
         if (Input.GetKeyDown("space"))
         {
-            beam.Play();
+            //beam.Play();
+            beamUpgrade.Play();
             main.loop = true;
         }
 
